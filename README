@@ -1,0 +1,17 @@
+# Overview
+
+This package is a dependable coroutine pool package for chez scheme. I hacked chez-a-sync(https://github.com/ChrisVine/chez-a-sync) and simplified it. And my purpose is making this library easily imported into other code.
+
+This package is published with Akku(https://akkuscm.org/), which is a language package manager for Scheme. 
+
+This package has been tested with Chez Scheme versions 9.4 and 9.5.
+
+# API
+Usage please refer to tests/test-ufo-coroutine-pool.sps.
+
+1. (init-coroutine proc . args)
+2. (init-iterator proc . args)
+3. (sync waitable. args)
+
+# Test
+> bash test.sh
