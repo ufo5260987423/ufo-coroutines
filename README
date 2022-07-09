@@ -1,6 +1,6 @@
 # Overview
 
-This package is a dependable coroutine pool package for chez scheme. I hacked chez-a-sync(https://github.com/ChrisVine/chez-a-sync) and simplified it. And my purpose is making this library easily imported into other code.
+This package is a dependable coroutine package for chez scheme. I hacked chez-a-sync(https://github.com/ChrisVine/chez-a-sync) and simplified it. And my purpose is making this library easily imported into other code.
 
 This package is published with Akku(https://akkuscm.org/), which is a language package manager for Scheme. 
 
