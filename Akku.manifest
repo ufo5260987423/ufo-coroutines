@@ -1,7 +1,7 @@
 #!r6rs ; -*- mode: scheme; coding: utf-8 -*-
 (import (akku format manifest))
 
-(akku-package ("ufo-coroutines" "1.0.2")
+(akku-package ("ufo-coroutines" "1.0.3")
   (synopsis "This package is a dependable coroutine package for chez scheme.")
   (authors "WANG Zheng")
   (license "MIT")
